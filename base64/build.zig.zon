@@ -6,7 +6,7 @@
     //
     // It is redundant to include "zig" in this name because it is already
     // within the Zig package namespace.
-    .name = .ZigLearn,
+    .name = .base64,
 
     // This is a [Semantic Version](https://semver.org/).
     // In a future version of Zig it will be used for package deduplication.
@@ -24,7 +24,7 @@
     // original project's identity. Thus it is recommended to leave the comment
     // on the following line intact, so that it shows up in code reviews that
     // modify the field.
-    .fingerprint = 0xc5f642f6963b8f2f, // Changing this has security and trust implications.
+    .fingerprint = 0xcf9232765f7b1d60, // Changing this has security and trust implications.
 
     // Tracks the earliest Zig version that the package considers to be a
     // supported use case.
@@ -79,7 +79,8 @@
         "build.zig",
         "build.zig.zon",
         "src",
-        "LICENSE",
-        "README.md",
+        // For example...
+        //"LICENSE",
+        //"README.md",
     },
 }
